@@ -1,0 +1,14 @@
+#root {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+#WorkspaceControls {
+    flex-direction: row;
+}
+
+.workspaceControl {
+    width: 25%;
+    height: 30%;
+}
