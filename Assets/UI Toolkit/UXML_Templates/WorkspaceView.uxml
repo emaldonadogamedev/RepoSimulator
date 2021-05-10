@@ -1,11 +1,32 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="WorkspaceView.uss" />
     <ui:VisualElement name="root">
+        <ui:VisualElement name="ChangeView" class="rowReserve">
+            <ui:Button text="&gt;&gt;" name="switchToRepoViewButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="emptySpace" />
         <ui:VisualElement name="WorkspaceControls">
-            <ui:VisualElement name="Translate" class="workspaceControl" />
-            <ui:VisualElement name="Rotate" class="workspaceControl" />
-            <ui:VisualElement name="Scale" class="workspaceControl" />
-            <ui:VisualElement name="Color" class="workspaceControl" />
+            <ui:VisualElement name="Translate" class="workspaceControl">
+                <ui:Button name="moveLeftButton" text="left" />
+                <ui:Button name="moveRightButton" text="left" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Rotate" class="workspaceControl">
+                <ui:Button name="rotateLeftButton" text="left rot" />
+                <ui:Button name="rotateRightButton" text="right rot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Scale" class="workspaceControl">
+                <ui:Button text="Scale" display-tooltip-when-elided="true" name="scaleButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Color" class="workspaceControl column">
+                <ui:VisualElement name="row1ofColors" class="row">
+                    <ui:Button display-tooltip-when-elided="true" name="color1Button" class="colorBox color1" />
+                    <ui:Button display-tooltip-when-elided="true" name="color2Button" class="colorBox color2" />
+                </ui:VisualElement>
+                <ui:VisualElement name="row2ofColors" class="row">
+                    <ui:Button display-tooltip-when-elided="true" name="color2Button" class="colorBox color3" />
+                    <ui:Button display-tooltip-when-elided="true" name="color1Button" class="colorBox color4" />
+                </ui:VisualElement>
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -1,14 +1,60 @@
+.row {
+    flex-direction: row;
+}
+
+.rowReserve {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.workspaceControl {
+    align-content: center;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+}
+
+.colorBox {
+    width: 50%;
+    height: 100%;
+}
+
+.colorBox.color1 {
+    background-color: royalblue;
+}
+
+.colorBox.color2 {
+    background-color: blueviolet;
+}
+
+.colorBox.color3 {
+    background-color: azure;
+}
+
+.colorBox.color4 {
+    background-color: chartreuse;
+}
+
 #root {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
-#WorkspaceControls {
-    flex-direction: row;
+#ChangesView {
+    height: 10%;
 }
 
-.workspaceControl {
-    width: 25%;
-    height: 30%;
+#emptySpace {
+    height: 65%;
+}
+
+#WorkspaceControls {
+    flex-direction: row;
+    height: 25%;
 }

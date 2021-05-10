@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 441081683}
   - component: {fileID: 441081682}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: WorkspaceUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: eed6011dcb7d947469186b3271e061c4, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 5db8e2bf56c594464ae7a73298a1d032, type: 3}
   m_SortingOrder: 0
 --- !u!4 &441081683
 Transform:
@@ -502,7 +502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &800986302
 RectTransform:
   m_ObjectHideFlags: 0
