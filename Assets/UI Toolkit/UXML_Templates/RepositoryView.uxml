@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="RepositoryView.uss" />
+    <ui:VisualElement name="root">
+        <ui:VisualElement name="Header">
+            <ui:VisualElement name="HeaderPanel">
+                <ui:VisualElement name="SwitchToWorkspaceView">
+                    <ui:Button text="&lt;&lt;" display-tooltip-when-elided="true" name="switchToWorkspaceViewButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PushAndPull" style="width: 85%;">
+                    <ui:Button text="pull&#10;" display-tooltip-when-elided="true" name="pullButton" />
+                    <ui:Button text="push&#10;" display-tooltip-when-elided="true" name="pushButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Changes">
+            <ui:Label text="Changes:" display-tooltip-when-elided="true" name="ChangesLabel" />
+            <ui:VisualElement name="CurrentChanges">
+                <ui:ScrollView name="CurrentChangesScrollView" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CommitChanges" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

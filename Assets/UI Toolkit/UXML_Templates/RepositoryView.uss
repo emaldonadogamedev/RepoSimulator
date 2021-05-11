@@ -1,0 +1,25 @@
+#root {
+    flex-direction: row;
+}
+
+#Header {
+    width: 70%;
+    height: 100%;
+}
+
+#Changes {
+}
+
+#HeaderPanel {
+    flex-direction: row;
+}
+
+#SwitchToWorkspaceView {
+    width: 15%;
+}
+
+#PushAndPull {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

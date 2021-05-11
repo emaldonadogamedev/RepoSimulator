@@ -15,16 +15,16 @@
                 <ui:Button name="rotateRightButton" text="right rot" />
             </ui:VisualElement>
             <ui:VisualElement name="Scale" class="workspaceControl">
-                <ui:Button text="Scale" display-tooltip-when-elided="true" name="scaleButton" />
+                <ui:Button text="Scale" name="scaleButton" />
             </ui:VisualElement>
             <ui:VisualElement name="Color" class="workspaceControl column">
                 <ui:VisualElement name="row1ofColors" class="row">
-                    <ui:Button display-tooltip-when-elided="true" name="color1Button" class="colorBox color1" />
-                    <ui:Button display-tooltip-when-elided="true" name="color2Button" class="colorBox color2" />
+                    <ui:Button name="color1Button" class="colorBox color1" />
+                    <ui:Button name="color2Button" class="colorBox color2" />
                 </ui:VisualElement>
                 <ui:VisualElement name="row2ofColors" class="row">
-                    <ui:Button display-tooltip-when-elided="true" name="color2Button" class="colorBox color3" />
-                    <ui:Button display-tooltip-when-elided="true" name="color1Button" class="colorBox color4" />
+                    <ui:Button name="color2Button" class="colorBox color3" />
+                    <ui:Button name="color1Button" class="colorBox color4" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
